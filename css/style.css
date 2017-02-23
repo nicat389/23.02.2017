@@ -12,11 +12,12 @@ body{
     background: #313131;
     width: 5px;
     height: 20px;
-    animation: bigRain 0.7s  infinite ease;
+    animation: bigRain 1s  infinite ease;
     position: relative;
     left: 50px;
     float: left;
     margin-left: 20px;
+    top:0;
 
 }
 
@@ -24,7 +25,7 @@ body{
    background: #313131;
     width: 5px;
     height: 10px;
-    animation: smallRain 0.9s  infinite ease;
+    animation: smallRain 1.5s  infinite ease;
     position: relative;
     left: 50px;
        float: left;
@@ -36,7 +37,7 @@ body{
    background: #313131;
     width: 5px;
     height: 15px;
-    animation: middleRain 0.8s  infinite ease;
+    animation: middleRain 1.3s  infinite ease;
     position: relative;
     left: 50px;
        float: left;
@@ -48,7 +49,7 @@ body{
    background: #313131;
     width: 5px;
     height: 15px;
-    animation: nextRain 0.4s  infinite ease;
+    animation: nextRain 0.7s  infinite ease;
     position: relative;
     left: 50px;
        float: left;
@@ -59,7 +60,7 @@ body{
 /*big Rain*/
 @keyframes bigRain{
 
-    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    from {left: 50px; top: 0; transform: rotate(-20deg)}
     to {left: 100px; top: 600px; transform: rotate(-20deg)}
 
 }
@@ -69,22 +70,22 @@ body{
 @keyframes smallRain{
 
    
-    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    from {left: 50px; top: 0; transform: rotate(-20deg)}
     to {left: 100px; top: 600px; transform: rotate(-20deg)}
 }
 
 
 @keyframes middleRain{
 
-    from {left: 50px; top: 50px;}
-    to {left: 98px; top: 608px}
+    from {left: 50px; top: 0; transform: rotate(-20deg)}
+    to {left: 98px; top: 608px; transform: rotate(-20deg)}
 
 }
 
 @keyframes nextRain{
 
    
-    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    from {left: 50px; top: 0; transform: rotate(-20deg)}
     to {left: 100px; top: 600px; transform: rotate(-20deg)}
 
 }

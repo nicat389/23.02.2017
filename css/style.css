@@ -1,0 +1,90 @@
+body{
+    background-image: url(http://www.desktopimages.org/pictures/2013/1030/7/orig_27583.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+.first{
+    background: #313131;
+    width: 5px;
+    height: 20px;
+    animation: bigRain 0.7s  infinite ease;
+    position: relative;
+    left: 50px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.second{
+   background: #313131;
+    width: 5px;
+    height: 10px;
+    animation: smallRain 0.9s  infinite ease;
+    position: relative;
+    left: 50px;
+       float: left;
+       margin-left: 20px;
+     
+}
+
+.third{
+   background: #313131;
+    width: 5px;
+    height: 15px;
+    animation: middleRain 0.8s  infinite ease;
+    position: relative;
+    left: 50px;
+       float: left;
+           margin-left: 20px;
+         
+}
+
+.fourth{
+   background: #313131;
+    width: 5px;
+    height: 15px;
+    animation: nextRain 0.4s  infinite ease;
+    position: relative;
+    left: 50px;
+       float: left;
+           margin-left: 20px;
+}
+
+
+/*big Rain*/
+@keyframes bigRain{
+
+    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    to {left: 100px; top: 600px; transform: rotate(-20deg)}
+
+}
+
+
+/*small Rain*/
+@keyframes smallRain{
+
+   
+    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    to {left: 100px; top: 600px; transform: rotate(-20deg)}
+}
+
+
+@keyframes middleRain{
+
+    from {left: 50px; top: 50px;}
+    to {left: 98px; top: 608px}
+
+}
+
+@keyframes nextRain{
+
+   
+    from {left: 50px; top: 50px; transform: rotate(-20deg)}
+    to {left: 100px; top: 600px; transform: rotate(-20deg)}
+
+}
